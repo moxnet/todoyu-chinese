@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
-	<label index="files">Files</label>
-	<label index="download">Download</label>
-	<label index="upload">Upload</label>
+	<label index="files">文件</label>
+	<label index="download">下载</label>
+	<label index="upload">上传</label>
 	<label index="size.gb">GB</label>
 	<label index="size.mb">MB</label>
 	<label index="size.kb">KB</label>
 	<label index="size.b">B</label>
-	<label index="filename">File Name</label>
-	<label index="filesize">File Size</label>
-	<label index="upload.progressmessage">Uploading File</label>
-	<label index="upload.succeeded">Uploading of file succeeded</label>
-	<label index="upload.selectfile">Select file to upload:</label>
-	<label index="upload.error.uploadfailed">Upload failed.</label>
-	<label index="upload.failed.maxFileSizeExceeded">Upload failed: maximum allowed file size exceeded.</label>
-	<label index="confirm.delete">Delete Selected File</label>
-	<label index="notify.delete.success">File has been deleted:</label>
-	<label index="notify.delete.error">File deletion failed:</label>
+	<label index="filename">文件名称</label>
+	<label index="filesize">文件大小</label>
+	<label index="upload.progressmessage">正在上传</label>
+	<label index="upload.succeeded">上传成功</label>
+	<label index="upload.selectfile">选择文件:</label>
+	<label index="upload.error.uploadfailed">上传失败.</label>
+	<label index="upload.failed.maxFileSizeExceeded">上传失败: 文件大小超过允许的最大值.</label>
+	<label index="confirm.delete">删除文件</label>
+	<label index="notify.delete.success">删除成功:</label>
+	<label index="notify.delete.error">删除成功:</label>
 </labels>
