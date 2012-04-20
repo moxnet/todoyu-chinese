@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+	<label index="title">员工</label>
+	<label index="selection">激活所选</label>
+	<label index="selection.empty">没有选择. 使用搜索添加新的人员和分组</label>
+</labels>
