@@ -26,7 +26,7 @@
 	<label index="person.delete.ok">人员删除成功</label>
 	<label index="person.delete.confirm">确认你要删除么?</label>
 	<label index="person.details">显示人员详情</label>
-	<label index="person.close">关闭视频</label>
+	<label index="person.close">关闭</label>
 	<label index="person.saved">人员已保存</label>
 	<label index="person.saved.error">保存人员失败</label>
 	<label index="person.attr.id">人员ID</label>
@@ -58,7 +58,7 @@
 	<label index="company.delete.ok">公司已删除成功</label>
 	<label index="company.delete.hasProjects">无法删除存在项目的公司</label>
 	<label index="company.details">公司详情</label>
-	<label index="company.close">着实视图</label>
+	<label index="company.close">关闭</label>
 	<label index="company.saved.ok">公司已保存</label>
 	<label index="company.saved.error">保存公司失败</label>
 	<label index="company.attr.id">公司ID</label>
