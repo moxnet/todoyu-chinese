@@ -9,8 +9,8 @@
 	<label index="notify.popup.deactivated">禁用弹窗提醒</label>
 	<label index="notify.email.timeupdated">邮件提醒调度已更新</label>
 	<label index="notify.popup.timeupdated">弹窗提醒调度已更新</label>
-	<label index="beforeDateStart">约会开始时间</label>
-	<label index="atDateStart">约定何时开始</label>
+	<label index="beforeDateStart">提前开始时间</label>
+	<label index="atDateStart">开始时</label>
 	<label index="email.subject">约会提醒</label>
 	<label index="email.title">自动约会提醒</label>
 	<label index="noReminder">不要提醒我</label>
