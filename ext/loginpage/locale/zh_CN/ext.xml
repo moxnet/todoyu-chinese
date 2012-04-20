@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
-	<label index="ext.title">登陆</label>
+	<label index="ext.title">登陆页</label>
 	<label index="page.title">登陆</label>
 	<label index="tab.login">登陆</label>
 	<label index="tab.help">帮助</label>
