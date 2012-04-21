@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
 	<label index="ext.title">个人设置</label>
-	<label index="page.title">My Profile</label>
+	<label index="page.title">个人信息</label>
 	<label index="headlet.label">我的设置</label>
 	<label index="module.general">普通设置</label>
 	<label index="general.main.tab">Main</label>
