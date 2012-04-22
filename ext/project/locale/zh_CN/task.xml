@@ -10,7 +10,7 @@
 	<label index="attr.activity">活动类型</label>
 	<label index="attr.estimated_workload">估计工作量</label>
 	<label index="attr.ext_resources_is_onblock">工作频率</label>
-	<label index="attr.billingtype">付费类型</label>
+	<label index="attr.billingtype">账单类型</label>
 	<label index="attr.date_create">创建日期</label>
 	<label index="attr.date_start">开始时间</label>
 	<label index="attr.date_deadline">最后期限</label>
@@ -19,11 +19,11 @@
 	<label index="attr.person_assigned">分配给</label>
 	<label index="attr.person_owner">任务属主</label>
 	<label index="attr.is_public">任务可见性</label>
-	<label index="attr.is_public.public">将任务公开</label>
-	<label index="attr.is_public.private">任务不公开</label>
-	<label index="attr.is_public.public.container">将容器公开</label>
+	<label index="attr.is_public.public">公开</label>
+	<label index="attr.is_public.private">非公开</label>
+	<label index="attr.is_public.public.container">容器公开</label>
 	<label index="attr.is_public.private.container">容器不公开</label>
-	<label index="attr.id_parenttask">你任务</label>
+	<label index="attr.id_parenttask">父任务</label>
 	<label index="attr.is_estimatedworkload_public">估计的工作量可见性</label>
 	<label index="attr.is_estimatedworkload_public.1">公开</label>
 	<label index="attr.is_estimatedworkload_public.0">不公开</label>
