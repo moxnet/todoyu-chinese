@@ -36,7 +36,7 @@
 	<label index="container.attr.is_public">容器公开</label>
 	<label index="search.label">任务</label>
 	<label index="search.mode.label">查找任务</label>
-	<label index="create.label">新任务</label>
+	<label index="create.label">新建任务</label>
 	<label index="date.deadline.short">D</label>
 	<label index="contextmenu.showinproject">在项目中显示</label>
 	<label index="contextmenu.editinproject">在项目中编辑</label>
@@ -77,10 +77,10 @@
 	<label index="status.cleared">已完结</label>
 	<label index="status.warranty">维保中</label>
 	<label index="cloneSubtasks.confirm">克隆子任务?</label>
-	<label index="new.Task.defaultTitle">新任务</label>
-	<label index="new.Container.defaultTitle">新容器</label>
-	<label index="newTask.empty">新任务</label>
-	<label index="newContainer.empty">新容器</label>
+	<label index="new.Task.defaultTitle">新建任务</label>
+	<label index="new.Container.defaultTitle">新建容器</label>
+	<label index="newTask.empty">新建任务</label>
+	<label index="newContainer.empty">新建容器</label>
 	<label index="newSubtask.empty">新子任务</label>
 	<label index="newSubcontainer.empty">新子容器</label>
 	<label index="js.removetask.question">确认要删除此任务?</label>

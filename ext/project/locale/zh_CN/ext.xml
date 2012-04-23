@@ -53,10 +53,10 @@
 	<label index="contextmenu.showinproject">在项目区域中显示</label>
 	<label index="contextmenu.showdetails">显示详情</label>
 	<label index="contextmenu.hidedetails">隐藏详情</label>
-	<label index="contextmenu.edit">编辑工程</label>
-	<label index="contextmenu.delete">删除工程</label>
-	<label index="contextmenu.add.task">增加任务</label>
-	<label index="contextmenu.add.container">增加新容器</label>
+	<label index="contextmenu.edit">编辑项目</label>
+	<label index="contextmenu.delete">删除项目</label>
+	<label index="contextmenu.add.task">添加任务</label>
+	<label index="contextmenu.add.container">添加分组</label>
 	<label index="tasktree.losttasks">存在不正确的父或状态的任务</label>
 	<label index="records.projectrole">项目角色</label>
 	<label index="records.projectrole.desc">项目成员的角色</label>

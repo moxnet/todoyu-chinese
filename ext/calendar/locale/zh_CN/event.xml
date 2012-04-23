@@ -8,7 +8,7 @@
 	<label index="delete">删除事件</label>
 	<label index="saved.ok">事件已保存</label>
 	<label index="saved.error">保存事件失败</label>
-	<label index="create.label">新事件</label>
+	<label index="create.label">新建事件</label>
 	<label index="type.general">通用</label>
 	<label index="type.away">缺席</label>
 	<label index="type.birthday">生日</label>

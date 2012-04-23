@@ -7,9 +7,9 @@
 	<label index="tab.noComments">添加评论</label>
     <label index="tab.toggle">评论 开/关</label>
 	<label index="edit.comment">评论</label>
-	<label index="edit.feedback">请求的反馈</label>
+	<label index="edit.feedback">向下列人员请求阅读反馈</label>
 	<label index="edit.autoFeedbackFromOwner">任务主人的反馈请求</label>
-	<label index="edit.is_public">评论对项目的所有成员可见</label>
+	<label index="edit.is_public">项目所有成员可见</label>
 	<label index="edit.sendasemail">通过邮件发送评论</label>
 	<label index="edit.autoSentEmailToTaskOwner">给任务主人发邮件</label>
 	<label index="edit.sentEmailTo">发邮件给</label>
@@ -45,8 +45,8 @@
 	<label index="extconf.automailcommenttoowner.label">Roles to auto-mail comment to task owner (removes mailing option with free receiver selection):</label>
 	<label index="history.header">评论历史(反馈和邮件)</label>
 	<label index="history.created">评论创建</label>
-	<label index="history.feedbackrequestedfrom">来自哪的反馈</label>
-	<label index="history.feedbackrequestseen">收集到的反馈</label>
+	<label index="history.feedbackrequestedfrom">下列人员请求的反馈</label>
+	<label index="history.feedbackrequestseen">我收到的其它人的反馈</label>
 	<label index="history.mailedto">发送的评论邮件</label>
 	<label index="portal.tab.feedbacks">反馈</label>
 </labels>
