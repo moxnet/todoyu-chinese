@@ -9,7 +9,7 @@
 	<label index="totalToday">今天总跟踪时间</label>
 	<label index="daysinmonth">日期</label>
 	<label index="export.title">导出</label>
-	<label index="export.company"><!--Translate-->Customer</label>
+	<label index="export.company">客户</label>
 	<label index="export.popup.title">导出时间表</label>
 	<label index="export.popup.date_end">结束日期</label>
 	<label index="export.popup.error.allFieldsEmpty">所有的域为空</label>

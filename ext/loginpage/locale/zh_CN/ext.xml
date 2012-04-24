@@ -24,7 +24,7 @@
 	<label index="forgotpassword.invalidusername">输入的用户名不存在.</label>
 	<label index="forgotpassword.invalidusername.adminlink">不记得用户名</label>
 	<label index="forgotpassword.form.field.submit">发送新密码</label>
-	<label index="forgotpassword.form.field.cancel"><!--Translate-->Cancel and return to login</label>
+	<label index="forgotpassword.form.field.cancel">取消并返回登陆界面</label>
 	<label index="forgotpassword.form.field.notification.success">已经给你的邮箱发送了确认邮件</label>
 	<label index="forgotpassword.form.field.comment">忘记了密码? 没问题! 输入你的用户名并点击发送, 你将收到重置密码的确认邮件.</label>
 	<label index="forgotpassword.mail.subject.newpassword">新的密码</label>
