@@ -34,6 +34,7 @@
 	<label index="install.error.lowVersion">依赖的插件已安装, 但版本太低</label>
 	<label index="install.error.conflicts">此插件与已安装的插件冲突.</label>
 	<label index="install.error.core">Core 版本太低</label>
+	<label index="install.error.core.atLeastVersion"><!--Translate-->Required version at least:</label>
 	<label index="uninstall">删除插件</label>
 	<label index="uninstall.confirm">确认要删除插件?</label>
 	<label index="uninstall.ok">插件成功删除</label>

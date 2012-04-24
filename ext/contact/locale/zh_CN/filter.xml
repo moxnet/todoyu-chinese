@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+	<label index="company.label"><!--Translate-->Companies</label>
+	<label index="person.label"><!--Translate-->Persons</label>
+	<label index="fulltext"><!--Translate-->Full-Text</label>
+	<label index="contactinformation"><!--Translate-->Contact Information</label>
+	<label index="person.name"><!--Translate-->Name (First / Last / Short)</label>
+	<label index="person.company"><!--Translate-->Employer</label>
+	<label index="person.salutation"><!--Translate-->Salutation</label>
+	<label index="person.system_role"><!--Translate-->User Role</label>
+	<label index="person.company.isInternal"><!--Translate-->Employer is internal company</label>
+	<label index="person.isActive"><!--Translate-->todoyu-login is activated</label>
+	<label index="company.name"><!--Translate-->Company Name</label>
+	<label index="company.isInternal"><!--Translate-->Is Internal Company</label>
+	<label index="company.dateEnter"><!--Translate-->Entering Date</label>
+	<label index="company.person"><!--Translate-->Employee</label>
+	<label index="addresses.label"><!--Translate-->Addresses</label>
+	<label index="address.country"><!--Translate-->Country</label>
+	<label index="address.zip"><!--Translate-->Zip</label>
+	<label index="address.city"><!--Translate-->City</label>
+	<label index="address.street"><!--Translate-->Street</label>
+</labels>

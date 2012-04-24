@@ -1,0 +1,114 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use File::Basename;
+
+my ($source, $translate, $diff) = @ARGV;
+
+unless ($source and $translate and $diff and $source =~ /^\w/ and $translate =~ /^\w/ and $diff =~ /^\w/ ) {
+    usage();
+    exit(1);
+}
+
+my %data;
+
+write_dir($source, $diff);
+
+
+sub write_dir {
+    my $d = shift;
+
+    opendir my $d_h, $d
+        or die "Can't open dir $d: $!";
+    foreach my $e (readdir $d_h) {
+        next if ($e eq '.' or $e eq '..');
+
+        my $p = join('/', $d, $e);
+        if (-d $p and $e eq 'en_GB') {
+            do_dir($p);
+        } elsif ( -d $p ) {
+            write_dir($p);
+        }
+    }
+    closedir $d_h;
+}
+
+sub do_dir {
+    my $d = shift;
+
+    my $t = $d;
+    $t =~ s/en_GB/zh_CN/;
+    my @e = split /\//,$t;
+
+    opendir my $h_d, $d
+        or die "Can't open dir $d: $!";
+    foreach my $e ( readdir $h_d ) {
+        my $p = join('/', $d, $e);
+        if (-f $p and $p =~ /\.xml/i) {
+
+            $e[0] = $translate;
+            my $word = join('/', @e, $e);
+
+            $e[0] = $diff;
+            my $to = join('/', @e, $e);
+
+            do_file($p, $word, $to);
+        }
+    }
+}
+
+sub do_file {
+    my ($from, $word, $to) = @_;
+
+    my $dirname = dirname($to);
+    `mkdir -p $dirname`;
+    open my $h_to, ">$to"
+        or die "Can't open file $to to write: $!";
+
+
+    #print "($from, $word, $to)\n";
+
+    my $dic = read_word($word);
+    if (open my $h, "<$from") {
+        while(<$h>) {
+            if (/\s*<label\s+index=['"]([-\w\.:]+)['"]>([^<]*)<[^>]+>/) {
+                my $s = $_;
+                my $d = $dic->{$1};
+                unless ($d) {
+                    $d = '<!--Translate-->' . $2;
+                }
+                $s =~ s/>[^<]+?</>$d</;
+                print $h_to $s;
+            } else {
+                print $h_to $_;
+            }
+        }
+        close $h;
+    }
+    close $h_to;
+}
+
+sub read_word {
+    my $f = shift;
+    my %data;
+    if (open my $h_f, "<$f") {
+        my $s;
+        while(<$h_f>) {
+            $s .= $_;
+        }
+        while($s =~ /\s*<label\s+index=['"]([-\w\.]+)['"]>([^<]*)<[^>]+>/) {
+            $data{$1} = $2;
+            $s = $';
+        }
+    } else {
+        warn "Can't open file $f:$!\n";
+    }
+    return \%data;
+}
+
+sub usage {
+    printf "\nUsage:\n\t$0 todoyu-source-dir  origin-translation-dir  save-diff-dir\n\n";
+    printf "\tCareful: todoyu-source-dir, origin-translation-dir, save-diff-dir must be tube dir\n";
+    printf "\tyou MUST make the todoyu-source-dir, origin-translation-dir and save-diff-dir in the save parantdir\n";
+}

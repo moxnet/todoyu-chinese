@@ -4,7 +4,7 @@
 	<label index="query">关键字搜索</label>
 	<label index="by">By</label>
 	<label index="core.newUpdateAvailable">有可安装的Core更新</label>
-	<label index="core.installUpdate">安装 Core 更新</label>
+	<label index="core.installUpdate">安装核心更新</label>
 	<label index="core.cancelUpdate">忽略 Core 更新</label>
 	<label index="update.newversion">新版本</label>
 	<label index="update.yourversion">现版本</label>
@@ -17,7 +17,7 @@
 	<label index="noExtensionsFoundForQuery">没有在市场中找到你查询的插件.</label>
 	<label index="extension.extensionUpdates">插件更新</label>
 	<label index="extension.moreDetails">显示详情</label>
-	<label index="extension.installUpdate">安装更新</label>
+	<label index="extension.installUpdate">安装插件更新</label>
 	<label index="extensionsFound">找到 %s 个插件</label>
 	<label index="extension.install">安装插件</label>
 	<label index="extension.installed">已安装</label>

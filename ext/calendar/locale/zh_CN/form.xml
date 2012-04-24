@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
 	<label index="legend.basics">你的事件的基本信息 </label>
+	<label index="legend.participants"><!--Translate-->Participants</label>
 	<label index="legend.details">详细信息 </label>
 	<label index="legend.notification">通知参与者 </label>
+	<label index="legend.autonotification"><!--Translate-->Participants receiving an automatical notification email</label>
 	<label index="legend.reminders">这个约会的提醒 </label>
+	<label index="legend.profile.appearance"><!--Translate-->Appearance</label>
 	<label index="legend.profile.general">通用日历设置 </label>
 	<label index="legend.profile.reminder.general">按需要定时你的定时器 </label>
+	<label index="legend.admin.appearance"><!--Translate-->Appearance</label>
 	<label index="legend.admin.overbooking">配置超额预定行为 </label>
 	<label index="legend.admin.reminders">提醒的默认设置 </label>
 	<label index="legend.admin.automaticEmail">配置通知行为</label>
 	<label index="legend.admin.holidayset.record.general">假日集 </label>
 	<label index="legend.admin.holiday.record.general">假日</label>
+	<label index="comment.autonotification.label"><!--Translate-->Send Emails To:</label>
+	<label index="comment.autonotification.noroles"><!--Translate-->No participant is in a role preset for auto-notification.</label>
+	<label index="legend.series"><!--Translate-->Event series</label>
 </labels>

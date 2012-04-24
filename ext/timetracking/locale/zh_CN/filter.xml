@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<labels>
+	<label index="optgroup"><!--Translate-->Time Tracking</label>
+	<label index="timetrackedPerson"><!--Translate-->Person has tracked time</label>
+	<label index="timetrackedRoles"><!--Translate-->Roles have tracked time</label>
+	<label index="person.trackedinproject"><!--Translate-->Tracked time in project</label>
+	<label index="person.trackedforcustomer"><!--Translate-->Tracked time in project of customer</label>
+</labels>

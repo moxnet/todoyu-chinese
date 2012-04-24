@@ -5,6 +5,7 @@
 	<label index="new">新建事件</label>
 	<label index="edit">编辑事件</label>
 	<label index="edit.sendasemail">通过Email发送通知</label>
+	<label index="edit.canceloptinalmailing"><!--Translate-->Don't send optional email</label>
 	<label index="delete">删除事件</label>
 	<label index="saved.ok">事件已保存</label>
 	<label index="saved.error">保存事件失败</label>
@@ -24,7 +25,12 @@
 	<label index="type.reminder">提醒</label>
 	<label index="privateEvent.info">个人</label>
 	<label index="delete.confirm">确认要删除此事件?</label>
+	<label index="delete.success"><!--Translate-->The event has been deleted.</label>
+	<label index="delete.error"><!--Translate-->Event deletion failed.</label>
 	<label index="group.attendees">事件参加者</label>
+	<label index="isseriesevent.info"><!--Translate-->Part of an event series</label>
+	<label index="eventtype.optgroup.overbookable"><!--Translate-->Overbookable event types</label>
+	<label index="eventtype.optgroup.blocking"><!--Translate-->Blocking event types</label>
 	<label index="attr.creator">创建人</label>
 	<label index="attr.eventtype">类型</label>
 	<label index="attr.is_dayevent">全天</label>
@@ -36,7 +42,6 @@
 	<label index="attr.starttime">At</label>
 	<label index="attr.enddate">结束日期</label>
 	<label index="attr.endtime">At</label>
-	<label index="attr.repeats">重复</label>
 	<label index="attr.place">地点</label>
 	<label index="attr.me">我的事件</label>
 	<label index="attr.assigned_to">出席者</label>
@@ -49,6 +54,7 @@
 	<label index="attr.popup_advancetime">在事件开始前弹窗提醒</label>
 	<label index="attr.reminder_email">通过邮件提醒我</label>
 	<label index="attr.reminder_popup">通过弹窗提醒我</label>
+	<label index="tree.header.eventtype"><!--Translate-->Event Type</label>
 	<label index="tree.header.title">事件标题</label>
 	<label index="eventslist.birthdaysWithinTheNextweeks">下周有生日</label>
 	<label index="eventslist.holidaysWithinTheNextweeks">下周有节日</label>
@@ -60,7 +66,10 @@
 	<label index="contextmenu.manageEvents">管理事件</label>
 	<label index="contextmenu.showEvent">显示事件</label>
 	<label index="contextmenu.editEvent">编辑事件</label>
+	<label index="contextmenu.editEventSeries"><!--Translate-->Edit Series</label>
+	<label index="contextmenu.editEventSeriesFuture"><!--Translate-->Edit Series (Future only)</label>
 	<label index="contextmenu.deleteEvent">删除事件</label>
+	<label index="contextmenu.deleteEventSeries"><!--Translate-->Delete Event Series</label>
 	<label index="contextmenu.addEvent">增加事件</label>
 	<label index="contextmenu.showEventInCalendar">在日历中显示</label>
 	<label index="contextmenu.showEventInCalendar.day">天</label>
@@ -88,5 +97,8 @@
 	<label index="mail.popup.subject.update">事件已更改</label>
 	<label index="mail.popup.subject.delete">事件已删除</label>
 	<label index="mail.notification.popup.deactivated">邮件和弹窗已经被禁用. 你可以在Profile中重新启用.</label>
+	<label index="mail.notification.autosent"><!--Translate-->Automatic notification email has been sent.</label>
 	<label index="mail.notification.sent">提醒邮件已发送.</label>
+	<label index="noAccess"><!--Translate-->You have no access to this event</label>
+	<label index="dropped"><!--Translate-->Saved new date and time for event</label>
 </labels>

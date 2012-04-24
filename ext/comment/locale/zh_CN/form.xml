@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
-	<label index="legend.admin.basics">配置通知选项 </label>
+	<label index="extconf.legend.config"><!--Translate-->Comment Config</label>
+	<label index="fallback.legend.fallback"><!--Translate-->Comment fallback</label>
+	<label index="fallback.legend.help"><!--Translate-->How it works</label>
+	<label index="fallback.legend.general"><!--Translate-->General settings</label>
+	<label index="fallback.legend.feedback"><!--Translate-->Request Feedback</label>
+	<label index="fallback.legend.email"><!--Translate-->Send Email</label>
 </labels>

@@ -3,4 +3,7 @@
 	<label index="title">过滤器集</label>
 	<label index="saveFilterButton">保存为新过滤器</label>
 	<label index="clearFilterArea">清除过滤区域</label>
+	<label index="addSeparator"><!--Translate-->Add Separator</label>
+	<label index="addSeparator"><!--Translate-->Add Separator</label>
+	<label index="notify.orderchanged"><!--Translate-->Changed filter sets order has been saved.</label>
 </labels>

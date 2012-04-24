@@ -17,4 +17,7 @@
 	<label index="confirm.delete">删除文件</label>
 	<label index="notify.delete.success">删除成功:</label>
 	<label index="notify.delete.error">删除成功:</label>
+	<label index="error.notFround"><!--Translate-->File not found</label>
+	<label index="error.notReadable"><!--Translate-->File not readable</label>
+	<label index="error.notInDownloadPath"><!--Translate-->File not inside of an allowed download path</label>
 </labels>

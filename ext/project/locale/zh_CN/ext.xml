@@ -17,12 +17,8 @@
 	<label index="addproject">新建项目</label>
 	<label index="editproject">编辑项目</label>
 	<label index="status.planning">计划中</label>
-	<label index="status.open">准备中</label>
 	<label index="status.progress">开发中</label>
-	<label index="status.confirm">确认中</label>
 	<label index="status.done">已完成</label>
-	<label index="status.accepted">已认可</label>
-	<label index="status.rejected">已拒绝</label>
 	<label index="status.cleared">已完结</label>
 	<label index="status.warranty">维护中</label>
 	<label index="status.undefined">未定义</label>
@@ -65,6 +61,7 @@
 	<label index="records.taskpreset">任务Presets集</label>
 	<label index="records.taskpreset.desc">Field presets for tasks in a project</label>
 	<label index="infobox.presets.title">Presets for newly created tasks</label>
+	<label index="taskpreset.noneForProject"><!--Translate-->No presets for new tasks in this project</label>
 	<label index="taskpreset.title">Task presets set title</label>
 	<label index="taskpreset.person_owner_fallback">Owner person, if not selectable </label>
 	<label index="taskpreset.person_assigned_fallback">Assigned person, if not selectable</label>
@@ -72,7 +69,10 @@
 	<label index="taskpreset.role_owner_fallback">Owner person with role, if not selectable</label>
 	<label index="taskpreset.option.none">没有选择任务preset</label>
 	<label index="taskpreset.quicktask_duration_days">快速任务默认持续时间为1天</label>
-	<label index="form.validation.dateBefore">日期必须位于结束日期前</label>
+	<label index="taskpreset.pleaseSelectOwner"><!--Translate-->Dynamic: Task creator (default)</label>
+	<label index="form.validation.dateBeforeEnd"><!--Translate-->Date must be set before end date</label>
+	<label index="form.validation.dateAfterStart"><!--Translate-->Date must be set after start date</label>
+	<label index="form.validation.dateAfterEnd"><!--Translate-->Date must be set after internal deadline</label>
 	<label index="form.validation.title">请输入项目标题</label>
 	<label index="form.validation.company">项目必须有一个客户</label>
 	<label index="noLabel.newProjectParticipant">新项目参与人</label>
@@ -85,5 +85,7 @@
 	<label index="ac.person.notFoundInfo">没有发现此名字的人员</label>
 	<label index="portal.tab.todos">待办事项</label>
 	<label index="export.csv">导出项目为CSV</label>
-	<label index="extconf.defaultTaskPreset">默认任务的preset</label>
+	<label index="extconf.taskPreset"><!--Translate-->Task Preset</label>
+	<label index="extconf.fallbackTaskPreset"><!--Translate-->Fallback preset</label>
+	<label index="extconf.fallbackInfo"><!--Translate-->The fallback task preset is applied for tasks in projects which have no own task preset. It's also the default for new projects</label>
 </labels>

@@ -5,9 +5,9 @@
 	<label index="legend.container.basics">基本信息</label>
 	<label index="legend.container.attributes">属性</label>
 	<label index="legend.project.basics">基本信息</label>
-	<label index="legend.project.taskpreset">任务Preset配置</label>
+	<label index="legend.project.preset"><!--Translate-->Preset configuration</label>
 	<label index="legend.project.members">项目成员</label>
-	<label index="legend.quicktask.basics">基本信息</label>
+	<label index="legend.quicktask.basics">你的任务基本信息</label>
 	<label index="legend.project.approvalroles">发票审批角色</label>
 	<label index="legend.quicktask.basics">你的任务基本信息</label>
 	<label index="legend.admin.basics">你的任务默认设置</label>

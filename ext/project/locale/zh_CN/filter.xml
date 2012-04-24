@@ -27,14 +27,6 @@
 	<label index="task.editdateDyn">上次编辑(动态)</label>
 	<label index="task.createdate">创建者</label>
 	<label index="task.createdateDyn">创建(动态)</label>
-	<label index="task.dyndate.today">今天</label>
-	<label index="task.dyndate.tomorrow">昨天</label>
-	<label index="task.dyndate.dayaftertomorrow">后天</label>
-	<label index="task.dyndate.yesterday">昨天</label>
-	<label index="task.dyndate.daybeforeyesterday">前天</label>
-	<label index="task.dyndate.currentweek">本周</label>
-	<label index="task.dyndate.nextweek">下周</label>
-	<label index="task.dyndate.lastweek">上周</label>
 	<label index="project.id">项目ID</label>
 	<label index="project.status">项目状态</label>
 	<label index="project.fulltext">富文本标题</label>
@@ -51,13 +43,10 @@
 	<label index="project.createdateDyn">创建(动态)</label>
 	<label index="project.editdate">编辑</label>
 	<label index="project.editdateDyn">编辑(动态)</label>
-	<label index="project.dyndate.today">今天</label>
-	<label index="project.dyndate.tomorrow">昨天</label>
-	<label index="project.dyndate.dayaftertomorrow">后天</label>
-	<label index="project.dyndate.yesterday">昨天</label>
-	<label index="project.dyndate.daybeforeyesterday">前天</label>
-	<label index="project.dyndate.currentweek">本周</label>
-	<label index="project.dyndate.nextweek">下周</label>
-	<label index="project.dyndate.lastweek">上周</label>
+	<label index="optgroup.projects"><!--Translate-->Projects</label>>
 	<label index="project.taskfilter">在任务过滤器中的任务</label>
+	<label index="person.assignedinproject"><!--Translate-->Assigned In Project</label>
+	<label index="company.projectstatus"><!--Translate-->Has project(s) with status</label>
+	<label index="company.dateCreateTask"><!--Translate-->Has tasks created before/after</label>
+	<label index="company.dateCreateTaskDynamic"><!--Translate-->Has tasks created from/until (dynamic)</label>
 </labels>

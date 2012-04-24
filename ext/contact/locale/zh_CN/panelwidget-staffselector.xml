@@ -3,4 +3,15 @@
 	<label index="title">员工</label>
 	<label index="selection">激活所选</label>
 	<label index="selection.empty">没有选择. 使用搜索添加新的人员和分组</label>
+	<label index="button.save.newgroup"><!--Translate-->Save selection as group</label>
+	<label index="newGroupLabel.prompt"><!--Translate-->Enter a name for the new group</label>
+	<label index="newGroupLabel.saved.success"><!--Translate-->Group has been saved.</label>
+	<label index="newGroupLabel.error.saveEmptyName"><!--Translate-->Enter a name for the new group</label>
+	<label index="newGroupLabel.prompt.preset"><!--Translate-->New Group</label>
+	<label index="icon.additem"><!--Translate-->Select</label>
+	<label index="icon.removefromselection"><!--Translate-->Remove From Selection</label>
+	<label index="icon.deletegroup"><!--Translate-->Delete Group</label>
+	<label index="deletegroup.confirm"><!--Translate-->Really delete the group?</label>
+	<label index="deletegroup.success"><!--Translate-->Group has been deleted.</label>
+	<label index="deletegroup.error"><!--Translate-->Deleting group failed.</label>
 </labels>

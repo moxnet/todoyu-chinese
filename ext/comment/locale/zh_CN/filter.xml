@@ -9,4 +9,7 @@
 	<label index="commentCreatedate">评论时间</label>
 	<label index="sorting.commentLastAdd">上次评论时间</label>
 	<label index="sorting.commentLastAddPublic">上次公开评论</label>
+	<label index="isSeen.negation.true"><!--Translate-->Person saw comment</label>
+	<label index="isSeen.negation.false"><!--Translate-->Person didn't see comment</label>
+	<label index="project.commentMyFeedbackRequest"><!--Translate-->I requested feedback, person has/not seen comment</label>
 </labels>

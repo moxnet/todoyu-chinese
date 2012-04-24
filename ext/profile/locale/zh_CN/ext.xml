@@ -18,6 +18,6 @@
 	<label index="general.password.error">无法更改密码</label>
 	<label index="general.password.success">密码已更改</label>
 	<label index="general.password.notEqual">两次输入的新密码不一致</label>
-    <label index="general.main.header">个人配置<label>
+	<label index="general.main.header">个人配置</label>
 	<label index="general.password.header">密码</label>
 </labels>

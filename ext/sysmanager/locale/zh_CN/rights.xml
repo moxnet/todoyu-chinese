@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
 	<label index="general">通用设置</label>
+	<label index="general.use"><!--Translate-->Use Sysmanager</label>
 	<label index="general.extensions">插件管理</label>
-	<label index="general.allrecords">显示所有记录编辑窗口</label>
-	<label index="general.rights">权限管理</label>
+	<label index="general.records"><!--Translate-->Edit Records</label>
+	<label index="general.config"><!--Translate-->System Config</label>
 	<label index="extensions">插件</label>
-	<label index="extensions.info">插件信息</label>
 	<label index="extensions.config">管理配置</label>
-	<label index="extensions.rights">编辑权限</label>
-	<label index="extensions.records">管理记录</label>
-	<label index="extensions.uninstall">制裁插件</label>
-	<label index="extensions.install">安装插件</label>
 	<label index="extensions.download">下载插件</label>
-	<label index="extensions.update">上传插件</label>
-	<label index="roles">角色</label>
-	<label index="roles.edit">编辑角色</label>
-	<label index="roles.delete">删除角色</label>
+	<label index="extensions.modify"><!--Translate-->Install / Uninstall / Update</label>
 </labels>

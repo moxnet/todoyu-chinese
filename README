@@ -11,8 +11,6 @@ Todoyu is free software, and you are welcome to redistribute it under certain co
 
 Extensions are copyright of their respective owners. 
 
-The translation is based on version 2.1.4.
-
 The translation's code repository is https://github.com/moxnet/todoyu-chinese , you can download it from web  or clone using Git
 
 
@@ -23,7 +21,5 @@ in chinese:
 Todoyu 是一款自由软件, 可以在相应的条件下重发布.
 
 插件的版权归相应的作者.
-
-此翻译基于 todoyu 2.1.4 版.
 
 翻译的代码放在 Github上, 地址为 https://github.com/moxnet/todoyu-chinese , 你可以在浏览器中直接下载, 也可通过 Git 克隆

@@ -4,6 +4,7 @@
 	<label index="title">任务书签</label>
 	<label index="info.nobookmarks">还没有书签</label>
 	<label index="contextmenu.removebookmark">删除书签</label>
+	<label index="contextmenu.renamebookmark"><!--Translate-->Change bookmark label</label>
 	<label index="contextmenu.editbookmarks">编辑书签</label>
 	<label index="contextmenu.addbookmark">增加书签</label>
 	<label index="profile.module">书签</label>
@@ -14,7 +15,11 @@
 	<label index="profile.module.tasks.listing.label">标签</label>
 	<label index="bookmark.edit">编辑书签</label>
 	<label index="bookmark.rename">重命名书签</label>
+	<label index="bookmark.renamePrompt"><!--Translate-->New bookmark label (empty = original label)</label>
 	<label index="bookmark.delete.confirm">确认要删除此书签?</label>
+	<label index="bookmark.removed"><!--Translate-->Bookmark removed</label>
+	<label index="bookmark.renamed"><!--Translate-->Bookmark renamed</label>
+	<label index="bookmark.added"><!--Translate-->Bookmark created</label>
 	<label index="bookmark.attr.title">标签</label>
 	<label index="bookmark.type.task">任务</label>
 	<label index="bookmark.saved">书签已经保存</label>

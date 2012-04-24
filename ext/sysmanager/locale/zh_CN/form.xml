@@ -4,4 +4,7 @@
 	<label index="legend.system.cli">命令行接口 </label>
 	<label index="legend.system.debugging">Debugging </label>
 	<label index="legend.rightsmanager.general">管理角色和权限 </label>
+	<label index="legend.password.general"><!--Translate-->Define the password strength</label>
+	<label index="legend.logo.general"><!--Translate-->Change Logo</label>
+	<label index="legend.repository.general"><!--Translate-->Enter your todoyu ID</label>
 </labels>
