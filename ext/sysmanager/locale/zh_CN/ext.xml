@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
 	<label index="ext.title">系统管理</label>
-	<label index="page.title"><!--Translate-->System Manager</label>
-	<label index="headlet.label"><!--Translate-->System Manager</label>
+	<label index="page.title">系统管理</label>
+	<label index="headlet.label">系统管理</label>
 	<label index="tabs.extensions">插件</label>
 	<label index="tabs.extensions.back">显示插件列表</label>
 	<label index="tabs.info">信息</label>
@@ -20,7 +20,7 @@
 	<label index="records.delete.confirm">删除记录?</label>
 	<label index="records.delete">删除记录</label>
 	<label index="records.edit">编辑记录</label>
-	<label index="message.nomoduleallowed"><!--Translate-->You are not authorized to use any sysmanager modules. Please contact your administrator for further assistense.</label>
+	<label index="message.nomoduleallowed">你无权使用系统管理模块. 请联系你的管理员.</label>
 	<label index="recordType">记录类型</label>
 	<label index="browse.title">浏览插件</label>
 	<label index="backToTypeList">显示所有记录</label>
@@ -36,7 +36,7 @@
 	<label index="extconf.saved">插件配置已保存</label>
 	<label index="extconf.savingFailed">无法保存配置label>
 	</label>
-	<label index="notInstalledExtensions"><!--Translate-->Not Installed Extensions</label>
+	<label index="notInstalledExtensions">未安装的插件</label>
 	<label index="installedExtensions">已安装插件</label>
 	<label index="menu.extensions">插件</label>
 	<label index="menu.records">管理记录</label>
@@ -60,9 +60,9 @@
 	<label index="config.tab.systemconfig.name">系统名字</label>
 	<label index="config.tab.systemconfig.email">系统邮件</label>
 	<label index="config.tab.systemconfig.locale">系统位置</label>
-	<label index="config.tab.systemconfig.legend.timeAndDate"><!--Translate-->Time And Date</label>
+	<label index="config.tab.systemconfig.legend.timeAndDate">日期和时间</label>
 	<label index="config.tab.systemconfig.timezone">系统时区</label>
-	<label index="config.tab.systemconfig.firstDayOfWeek"><!--Translate-->First day of week</label>
+	<label index="config.tab.systemconfig.firstDayOfWeek">周始于</label>
 	<label index="config.tab.systemconfig.todoyuURL">todoyu 地址</label>
 	<label index="config.tab.systemconfig.logLevel">日志级别</label>
 	<label index="config.tab.repository.todoyuid">todoyu ID</label>
@@ -82,5 +82,5 @@
 	<label index="config.selectlogo.info">选择你要当作标记的图片, 图片将自动调整大小, 最大为190x60像素. 允许的格式为jpg, png 和 gifS</label>
 	<label index="config.tab.repository">仓库</label>
 	<label index="config.tab.repository.saved">仓库配置已保存</label>
-	<label index="quickinfo.right.depends"><!--Translate-->Requires the following rights:</label>
+	<label index="quickinfo.right.depends">需要下列权限:</label>
 </labels>
