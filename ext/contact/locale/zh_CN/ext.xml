@@ -7,7 +7,7 @@
 	<label index="person">人员</label>
 	<label index="persons">人员</label>
 	<label index="company">公司</label>
-	<label index="companies"><!--Translate-->Companies</label>
+	<label index="companies">公司</label>
 	<label index="workaddress">工作地点</label>
 	<label index="jobtype">工作类型</label>
 	<label index="noJobDefined">没有定义工作</label>
@@ -16,7 +16,7 @@
 	<label index="create.company.label">新建公司</label>
 	<label index="contactimage.upload">上传图片</label>
 	<label index="contactimage.upload.success">图片上传成功</label>
-	<label index="contactimage.upload.failed"><!--Translate-->Upload of image failed</label>
+	<label index="contactimage.upload.failed">上传图片失败</label>
 	<label index="contactimage.upload.maxFileSizeExceeded">文件 '#{filename}' 的大小超过了允许上传的最大值 (#{maxFileSize}Bytes) </label>
 	<label index="contactimage.upload.maxLengthFileNameExceeded">文件 '#{filename}' 的文件超过了允许的最大长度 (#{maxLengthFileName}) </label>
 	<label index="contactimage.upload.remove">删除头像</label>
@@ -33,8 +33,8 @@
 	<label index="person.attr.id">人员ID</label>
 	<label index="person.attr.salutation">问候语</label>
 	<label index="person.attr.salutation.m">先生</label>
-	<label index="person.attr.salutation.f">女士</label>
-	<label index="person.attr.salutation.w"><!--Translate-->Ms</label>
+	<label index="person.attr.salutation.f">夫人</label>
+	<label index="person.attr.salutation.w">女士</label>
 	<label index="person.attr.birthdate">生日</label>
 	<label index="person.attr.firstname">名</label>
 	<label index="person.attr.lastname">姓</label>
@@ -54,7 +54,7 @@
 	<label index="person.header.noneselected">没有选择人员.</label>
 	<label index="person.mainpersondata">个人数据</label>
 	<label index="person.userinformation">用户信息</label>
-	<label index="employee"><!--Translate-->Employee</label>
+	<label index="employee">员工</label>
 	<label index="company.edit">编辑公司</label>
 	<label index="company.delete">删除公司</label>
 	<label index="company.delete.confirm">确认要删除此公司?</label>
@@ -95,7 +95,7 @@
 	<label index="contactinfo.type.website">网站</label>
 	<label index="contactinfo.type.skype">Skype</label>
 	<label index="address">地址</label>
-	<label index="place"><!--Translate-->Place</label>
+	<label index="place">地址</label>
 	<label index="address.new">新建地址</label>
 	<label index="address.attr.addresstype">地址类型</label>
 	<label index="address.attr.addresstype.1">家庭地址</label>
@@ -137,7 +137,7 @@
 	<label index="company.search.mode">查找公司</label>
 	<label index="other">其它信息</label>
 	<label index="profile.module">个人数据</label>
-	<label index="export.companycsv"><!--Translate-->Export companies as CSV</label>
-	<label index="export.personcsv"><!--Translate-->Export persons as CSV</label>
-	<label index="backToList"><!--Translate-->Back to the listing</label>
+	<label index="export.companycsv">导出公司为CSV</label>
+	<label index="export.personcsv">导出人员为CSV</label>
+	<label index="backToList">返回列表</label>
 </labels>
