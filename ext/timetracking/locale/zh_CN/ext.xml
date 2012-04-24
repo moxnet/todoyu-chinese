@@ -3,7 +3,7 @@
 	<label index="ext.title">时间跟踪</label>
 	<label index="title">时间跟踪</label>
 	<label index="noTracksYet">没有在跟踪时间</label>
-	<label index="chargeable"><!--Translate-->Chargeable</label>
+	<label index="chargeable">需支付</label>
 	<label index="attr.date_create">日期</label>
 	<label index="attr.date_track">日期</label>
 	<label index="attr.workload_tracked">跟踪的时间</label>
@@ -12,9 +12,9 @@
 	<label index="search.label">时间跟踪</label>
 	<label index="task.attr.overtimed">时间预览</label>
 	<label index="headlet.label">时间跟踪</label>
-	<label index="totalTrackedTime"><!--Translate-->Total Tracked Time</label>
-	<label index="totalChargeableTime"><!--Translate-->Total Chargeable Time</label>
-	<label index="tasktab.edit"><!--Translate-->Click here to edit this record</label>
+	<label index="totalTrackedTime">总跟踪时间</label>
+	<label index="totalChargeableTime">总需支付时间</label>
+	<label index="tasktab.edit">点击编辑此记录</label>
 	<label index="start">开始跟踪时间</label>
 	<label index="stop">停止跟踪时间</label>
 	<label index="currentTask">现在的任务</label>

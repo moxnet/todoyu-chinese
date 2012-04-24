@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <labels>
 	<label index="legend.basics">任务资源</label>
-	<label index="legend.inlineAssetUpload"><!--Translate-->Attach files to this task</label>
+	<label index="legend.inlineAssetUpload">此任务相关的文件</label>
 </labels>
