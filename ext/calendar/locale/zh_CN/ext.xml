@@ -13,8 +13,8 @@
 	<label index="quicknav.backward.title">后退</label>
 	<label index="quicknav.forward.title">前进</label>
 	<label index="quicknav.today.title">跳到今天</label>
-	<label index="quicknav.toggleDayView.title"><!--Translate-->Toggle display: full-day / working hours</label>
-	<label index="quicknav.toggleWeekend.title"><!--Translate-->Display weekend on/off</label>
+	<label index="quicknav.toggleDayView.title">显示全天/工作时间</label>
+	<label index="quicknav.toggleWeekend.title">是否显示周末</label>
 	<label index="dayview.workingtime">只显示工作时间(08h-18h)</label>
 	<label index="dayview.fullday">显示全天(00h-24h)</label>
 	<label index="records.holidayset">假日集合</label>
@@ -61,14 +61,14 @@
 	<label index="extconf.reminder.audio.active.label">在弹窗同事播放音乐?</label>
 	<label index="profile.range.start"><!--Translate-->Start time for compact view</label>
 	<label index="profile.range.end"><!--Translate-->End time for compact view</label>
-	<label index="profile.range.error"><!--Translate-->End time of range must be after start time</label>
+	<label index="profile.range.error">结束时间必须在开始时间之后</label>
 	<label index="profile.module.reminders.header">配置事件提醒</label>
 	<label index="profile.module.main.header">主要日历配置</label>
 	<label index="profile.disableMailingQuestionAfterDraganddrop">通过拖拽修改事件后不理提醒是否发送邮件?</label>
 	<label index="profile.reminder.email.advancetime.label">定时邮件</label>
 	<label index="profile.reminder.popup.advancetime.label">定时弹窗</label>
-	<label index="profile.saved.error"><!--Translate-->Error while saving settings.</label>
+	<label index="profile.saved.error">保存设置出错.</label>
 	<label index="profile.main.saved">设置已保存.</label>
 	<label index="profile.reminders.saved">提醒已保存.</label>
-	<label index="pastDateWarning"><!--Translate-->Attention, your are creating an event in the past!</label>
+	<label index="pastDateWarning">注意, 你正在创建一个过期的已经</label>
 </labels>

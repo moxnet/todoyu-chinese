@@ -43,10 +43,10 @@
 	<label index="project.createdateDyn">创建(动态)</label>
 	<label index="project.editdate">编辑</label>
 	<label index="project.editdateDyn">编辑(动态)</label>
-	<label index="optgroup.projects"><!--Translate-->Projects</label>>
+	<label index="optgroup.projects">项目</label>>
 	<label index="project.taskfilter">在任务过滤器中的任务</label>
-	<label index="person.assignedinproject"><!--Translate-->Assigned In Project</label>
-	<label index="company.projectstatus"><!--Translate-->Has project(s) with status</label>
-	<label index="company.dateCreateTask"><!--Translate-->Has tasks created before/after</label>
-	<label index="company.dateCreateTaskDynamic"><!--Translate-->Has tasks created from/until (dynamic)</label>
+	<label index="person.assignedinproject">属于项目</label>
+	<label index="company.projectstatus">有下面状态的项目</label>
+	<label index="company.dateCreateTask">有在下列日期前/后创建的任务</label>
+	<label index="company.dateCreateTaskDynamic">有任务在下列日期之间创建的任务 (动态)</label>
 </labels>

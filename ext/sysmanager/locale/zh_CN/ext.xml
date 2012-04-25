@@ -34,8 +34,7 @@
 	<label index="extconf.header">插件配置</label>
 	<label index="extconf.noExtConf">此插件无可用配置</label>
 	<label index="extconf.saved">插件配置已保存</label>
-	<label index="extconf.savingFailed">无法保存配置label>
-	</label>
+	<label index="extconf.savingFailed">无法保存配置</label>
 	<label index="notInstalledExtensions">未安装的插件</label>
 	<label index="installedExtensions">已安装插件</label>
 	<label index="menu.extensions">插件</label>
