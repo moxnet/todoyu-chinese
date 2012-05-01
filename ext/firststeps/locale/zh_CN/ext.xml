@@ -36,7 +36,7 @@
 	<label index="wizard.project.help"><![CDATA[&nbsp;]]></label>
 	<label index="wizard.project.confirmRemovePerson">确认要从项目中移除此人?</label>
 	<label index="wizard.finish.title">就是这样!</label>
-    <label index="wizard.finish.info"><![CDATA[ 你已经 <strong>成功</strong> 输入了所有需要的信息, 开始工作吧!w]]></label>
+    <label index="wizard.finish.info"><![CDATA[ 你已经 <strong>成功</strong> 输入了所有需要的信息, 开始工作吧!]]></label>
 	<label index="wizard.finish.help"><![CDATA[&nbsp;]]></label>
 	<label index="wizard.finish.closeWizard">安装设置向导</label>
 	<label index="employee.addCompany">添加公司</label>

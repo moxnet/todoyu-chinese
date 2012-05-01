@@ -76,7 +76,7 @@
 	<label index="status.rejected">已拒绝</label>
 	<label index="status.cleared">已完结</label>
 	<label index="status.warranty">维保中</label>
-	<label index="status.waiting"><!--Translate-->Waiting</label>
+	<label index="status.waiting">等待中</label>
 	<label index="cloneSubtasks.confirm">克隆子任务?</label>
 	<label index="new.Task.defaultTitle">新建任务</label>
 	<label index="new.Container.defaultTitle">新建容器</label>
@@ -117,7 +117,7 @@
 	<label index="default.date.date_1">创建日期</label>
 	<label index="default.date.date_work_1">创建日期, 或下一个工作日</label>
 	<label index="default.date.date_2">创建日期 + 1 天</label>
-	<label index="default.date.date_work_2"><创建日期 + 1 工作日</label>
+	<label index="default.date.date_work_2">创建日期 + 1 工作日</label>
 	<label index="default.date.date_3">创建日期 + 2 天</label>
 	<label index="default.date.date_work_3">创建日期 + 2 工作日</label>
 	<label index="default.date.date_4">创建日期 + 3 天</label>

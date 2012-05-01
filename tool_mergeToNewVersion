@@ -72,13 +72,13 @@ sub do_file {
     my $dic = read_word($word);
     if (open my $h, "<$from") {
         while(<$h>) {
-            if (/\s*<label\s+index=['"]([-\w\.:]+)['"]>([^<]*)<[^>]+>/) {
+            if (/\s*<label\s+index=['"]([-\w\.:]+)['"]>(.*?)<\/label>/) {
                 my $s = $_;
                 my $d = $dic->{$1};
                 unless ($d) {
                     $d = '<!--Translate-->' . $2;
                 }
-                $s =~ s/>[^<]+?</>$d</;
+                $s =~ s/>.*?<\/label>/>$d<\/label>/;
                 print $h_to $s;
             } else {
                 print $h_to $_;
@@ -97,7 +97,7 @@ sub read_word {
         while(<$h_f>) {
             $s .= $_;
         }
-        while($s =~ /\s*<label\s+index=['"]([-\w\.]+)['"]>([^<]*)<[^>]+>/) {
+        while($s =~ /\s*<label\s+index=['"]([-\w\.]+)['"]>(.*?)<\/label>/) {
             $data{$1} = $2;
             $s = $';
         }
